@@ -1,0 +1,103 @@
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	cursor: pointer;
+	background: $primary-color;
+	color: $whitetext;
+	border: none;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	transform: scale(0.97);
+}
+
+.btn-outline {
+	background: transparent;
+	border: 1px $whitetext solid;
+}
+
+.bg-primary,
+.btn-primary {
+	background: $primary-color;
+	color: $whitetext;
+
+	a {
+		color: $whitetext;
+	}
+}
+
+.bg-secondary,
+.btn-secondary {
+	background: $secondary-color;
+	color: $whitetext;
+
+	a {
+		color: $whitetext;
+	}
+}
+
+.bg-dark,
+.btn-dark {
+	background: $dark-color;
+	color: $whitetext;
+
+	a {
+		color: $whitetext;
+	}
+}
+
+.bg-light,
+.btn-light {
+	background: $light-color;
+	color: $gray;
+
+	a {
+		color: $gray;
+	}
+}
+
+.alert {
+	background: $light-color;
+	padding: 10px 20px;
+	font-weight: bold;
+	margin: 15px 0;
+
+	i {
+		margin-right: 10px;
+	}
+}
+
+.alert-success {
+	background: $success-color;
+	color: $whitetext;
+}
+
+.alert-error {
+	background: $error-color;
+	color: $whitetext;
+}
+
+// text colors
+
+#roki {
+	color: $primary-color;
+}
+
+.text-secondary {
+	color: $secondary-color;
+}
+
+.text-dark {
+	color: $dark-color;
+}
+
+.text-light {
+	background: $light-color;
+	color: $gray;
+
+	a {
+		color: $gray;
+	}
+}

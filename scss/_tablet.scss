@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+	.grido,
+	.showcase .grido,
+	.stats .grido,
+	.cli .grido,
+	.cloud .grido,
+	.features-main .grido,
+	.docs-main .grido {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+
+	.showcase {
+		height: auto;
+
+		.showcase-text {
+			text-align: center;
+			margin-top: 40px;
+			animation: slideInFromTop 1s ease-in;
+		}
+
+		.showcase-form {
+			justify-self: center;
+			margin: auto;
+			animation: slideInFromBottom 1s ease-in;
+		}
+	}
+
+	.cli {
+		.grido > *:first-child {
+			grid-column: 1;
+			grid-row: 1;
+		}
+	}
+
+	.features-head,
+	.features-sub-head,
+	.docs-head {
+		text-align: center;
+
+		img {
+			justify-self: center;
+		}
+	}
+
+	.features-main {
+		// .grido {
+		// 	grid-template-rows: repeat(6, 1fr);
+		// }
+
+		.grido > *:first-child {
+			grid-column: 1;
+			// grid-row: 1;
+		}
+
+		.grido > *:nth-child(2) {
+			grid-column: 1;
+			// grid-row: 2;
+		}
+	}
+}
