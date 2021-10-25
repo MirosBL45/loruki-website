@@ -1,3 +1,9 @@
+@media (max-width: 950px) {
+	.showcase .showcase-text {
+		margin-right: 9.5vw;
+	}
+}
+
 @media (max-width: 768px) {
 	.grido,
 	.showcase .grido,
@@ -15,7 +21,7 @@
 
 		.showcase-text {
 			text-align: center;
-			margin-top: 40px;
+			margin: 40px 0;
 			animation: slideInFromTop 1s ease-in;
 		}
 
